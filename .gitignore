@@ -1,0 +1,9 @@
+/target/
+/.settings/
+/.classpath
+/.project
+/databasechangelog.csv
+pom.xml.versionsBackup
+src/main/resources/emails/
+bower_components/
+node_modules/

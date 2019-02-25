@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    
+     
+    <!--  -23.621542, -46.679222 Av. Jornalista Roberto Marinho --> 
+     <changeSet author="alpereira" id="1" >
+        <insert tableName="UBS">
+            <column name="ID" valueNumeric="1"/>
+            <column name="NAME" value="UBS Jardim Europa"/>
+            <column name="ADDRESS" value="Av. Ver. José Diniz, 3500 - Santo Amaro"/>
+            <column name="CITY" value="SP"/>
+            <column name="PHONE" value="011 4157 8945"/>
+            <column name="GEOCODE_LATE" valueNumeric="-23.617338"/>
+            <column name="GEOCODE_LONG" valueNumeric="-46.674593"/>
+            <column name="SCORES_SIZE"  valueNumeric="1"/>
+            <column name="SCORES_ADAPTATION_SENIORS"  valueNumeric="1"/>
+            <column name="SCORES_MEDICAL_EQUIPMENT"  valueNumeric="1"/>
+            <column name="SCORES_MEDICINE"  valueNumeric="1"/>
+        </insert>
+        
+    </changeSet>
+    
+    <changeSet author="alpereira" id="2" >
+        <insert tableName="UBS">
+            <column name="ID" valueNumeric="2"/>
+            <column name="NAME" value="UBS Cidade Jardim"/>
+            <column name="ADDRESS" value="Rua Pascoal Pais, 525 - Vila Cordeiro"/>
+            <column name="CITY" value="SP"/>
+            <column name="PHONE" value="011 4157 8945"/>
+            <column name="GEOCODE_LATE" valueNumeric="-23.616041"/>
+            <column name="GEOCODE_LONG" valueNumeric="-46.687210"/>
+            <column name="SCORES_SIZE"  valueNumeric="1"/>
+            <column name="SCORES_ADAPTATION_SENIORS"  valueNumeric="1"/>
+            <column name="SCORES_MEDICAL_EQUIPMENT"  valueNumeric="1"/>
+            <column name="SCORES_MEDICINE"  valueNumeric="1"/>
+        </insert>
+        
+    </changeSet>
+        
+    <changeSet author="alpereira" id="3" >
+        <insert tableName="UBS">
+            <column name="ID" valueNumeric="3"/>
+            <column name="NAME" value="UBS Morumbi"/>
+            <column name="ADDRESS" value="Jardim das Acacias - Brooklin"/>
+            <column name="CITY" value="SP"/>
+            <column name="PHONE" value="011 4157 8945"/>
+            <column name="GEOCODE_LATE" valueNumeric="-23.626343"/>
+            <column name="GEOCODE_LONG" valueNumeric="-46.691802"/>
+            <column name="SCORES_SIZE"  valueNumeric="1"/>
+            <column name="SCORES_ADAPTATION_SENIORS"  valueNumeric="1"/>
+            <column name="SCORES_MEDICAL_EQUIPMENT"  valueNumeric="1"/>
+            <column name="SCORES_MEDICINE"  valueNumeric="1"/>
+        </insert>
+        
+    </changeSet>
+    
+   
+    <changeSet author="alpereira" id="4" >
+        <insert tableName="UBS">
+            <column name="ID" valueNumeric="4"/>
+            <column name="NAME" value="UBS Itaim Bibi"/>
+            <column name="ADDRESS" value="Av. Adolfo Pinheiro, 640 - Itaim bibi"/>
+            <column name="CITY" value="SP"/>
+            <column name="PHONE" value="011 4157 8945"/>
+            <column name="GEOCODE_LATE" valueNumeric="-23.615516"/>
+            <column name="GEOCODE_LONG" valueNumeric="-46.630666"/>
+            <column name="SCORES_SIZE"  valueNumeric="1"/>
+            <column name="SCORES_ADAPTATION_SENIORS"  valueNumeric="1"/>
+            <column name="SCORES_MEDICAL_EQUIPMENT"  valueNumeric="1"/>
+            <column name="SCORES_MEDICINE"  valueNumeric="1"/>
+        </insert>
+        
+    </changeSet>
+    
+     
+</databaseChangeLog>
+
