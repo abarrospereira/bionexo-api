@@ -10,6 +10,8 @@
 	</parent>
 	<groupId>br.bionexo.api</groupId>
 	<artifactId>api</artifactId>
+		<packaging>war</packaging>
+	
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api</name>
 	<description>Demo project for Spring Boot</description>
