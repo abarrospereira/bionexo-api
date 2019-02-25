@@ -34,6 +34,9 @@ Sendo assim as UBS's que estiverem dentro do range será retornada pela api
 ## RUN
 mvn spring-boot:run
 
+## DOCKER
+docker-compose up --build
+
 ## Retorna uma lista de ubs com base na posição atual
 http://localhost:8080/api/rest/ubs?latitude=-23.621542&longitude=-46.679222
 
