@@ -29,7 +29,7 @@ public class UbsController {
 	private UbsService ubsService;
 
 	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Esta operação retorna unidade basica de saúde por id", response = Ubs.class),
+			@ApiResponse(code = 200, message = "Permite a exibição de informações de uma única UBS", response = Ubs.class),
 			@ApiResponse(code = 404, message = "Ubs não encontrada", response = NotFoundException.class)})
 	@RequestMapping(method = RequestMethod.GET, value = "/{id}")
 	public Ubs find(@PathVariable(name = "id", required = true) final Long id) {
@@ -39,7 +39,7 @@ public class UbsController {
 	}
 
 	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Listar unidades basicas com base posição atual e filtrada por nome", response = Ubs.class)})
+			@ApiResponse(code = 200, message = "Permite a listagem de UBS's registradas com base posição atual e filtrada por nome", response = Ubs.class)})
 	@RequestMapping(method = RequestMethod.GET)
 	public Page<Ubs> find(SearchUbsParameters searchUbsParameters, Pageable pageable) {
 		LOGGER.info(String.format("find by latitude: {longitude:%s} and longitude: {latitude:%s} and {name: %s}",
@@ -48,7 +48,7 @@ public class UbsController {
 	}
 	
 	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Salvar unidade basica", response = Ubs.class),
+			@ApiResponse(code = 200, message = "Registra unidade basica", response = Ubs.class),
 			@ApiResponse(code = 404, message = "Erro de negócio ou validação", response = NotFoundException.class)})
 	@RequestMapping(method = RequestMethod.POST)
 	public Ubs save(@RequestBody @Validated  Ubs ubs ) {
