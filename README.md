@@ -9,6 +9,8 @@
 | **GET** | /rest/ubs?latitude={latitude}&longitude={longitude} | Permite a listagem de UBS's registradas com base posição atual e filtrada por nome. |
 | **GET** | /rest/ubs/<id> | Permite a exibição de informações de uma única UBS. |
 
+## Documentação Swagger
+http://localhost:8080/api/swagger-ui.html#/
 
 ## Configurações
 Configurar no arquivo  application.properties distancia minima em (Metros). Com base nesse parâmetro a api filtrará
