@@ -20,6 +20,8 @@ services:
        context: .
        dockerfile: Dockerfile
     image: api_app
+    environment:
+      PARAMETER_DISTANCE_METERS: 2500
     ports:
       - "8080:8080"
     networks:
