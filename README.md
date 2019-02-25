@@ -13,7 +13,7 @@
 ## Configurações
 Configurar no arquivo  application.properties distancia minima em (Metros). Com base nesse parâmetro a api filtrará
 
-parameter.distance.meters = 2500 
+**parameter.distance.meters = 2500 
 
 A Api vai calcular a distância com base latitude e longitude que usuário informar.O retorno deste calculo será em metros
 
