@@ -29,7 +29,7 @@ public class UbsController {
 	private UbsService ubsService;
 
 	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Permite a exibição de informações  de uma única  UBS teste  ", response = Ubs.class),
+			@ApiResponse(code = 200, message = "Permite a exibição de informações   de uma única  UBS teste  ", response = Ubs.class),
 			@ApiResponse(code = 404, message = "Ubs não encontrada", response = NotFoundException.class)})
 	@RequestMapping(method = RequestMethod.GET, value = "/{id}")
 	public Ubs find(@PathVariable(name = "id", required = true) final Long id) {
