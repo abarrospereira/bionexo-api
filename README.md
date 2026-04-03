@@ -1,6 +1,6 @@
 # Bionexo Challenge: API
 
-
+ 
  
 ## Rotas
 | Método HTTP | Rota | Descrição | 
