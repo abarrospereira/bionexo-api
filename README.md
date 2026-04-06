@@ -1,9 +1,9 @@
 # Bionexo Challenge: API
 
-
-
+   
+ 
 ## Rotas
-| Método HTTP | Rota | Descrição |
+| Método HTTP | Rota | Descrição | 
 | ----------- | ---- | --------- |
 | **POST** | /rest/ubs | Registra UBS |
 | **GET** | /rest/ubs?latitude={latitude}&longitude={longitude} | Permite a listagem de UBS's registradas com base posição atual e filtrada por nome. |
